@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    background-color: var(--primary-color);
+}
+:root{
+    --primary-color:rgb(16, 16, 51);
+}
+body{
+    height:50vh;
+}
+.emoji{
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+    margin-top:2rem;
+    margin-left:20rem;
+    color:white;
+    border:dotted 2px white;
+    width:60%;
+    height:25em;
+    box-shadow: 5px 5px 5px rgb(100, 100, 245);
+}
+.container2{
+    text-align: center;
+    margin: 1.2rem;
+    color:white;
+    border:dotted 2px white;
+    width:100%;
+    height:25rem;
+    box-shadow: 5px 5px 10px rgb(100, 100, 245);
+    
+}
+h1{
+    font-family: 'Roboto Serif', serif;
+    padding-top:50px;
+    text-shadow: rgb(116, 105, 242) 1px 0 10px;
+}
+ h2{
+    padding-top:10px;
+    font-size:50px;
+    font-family: 'Roboto Serif', serif;
+    text-shadow: rgba(114, 72, 240, 0.92) 1px 0 10px;
+
+}
+
+#bday-input{
+    font-size: 20px;
+    border: solid 2px  rgb(100, 100, 245);
+    border-radius: 0.5rem;
+    background-color:  rgb(100, 100, 245);
+    color: white;
+    margin-top:30px;
+    cursor: grab;
+}
+#show-btn{
+    color:white;
+    border:solid 2px  rgb(98, 98, 209);
+    height:1.5rem;
+    width:10%;
+    border-radius: 0.5rem;
+    margin-top:20px;
+    background-color: rgb(100, 100, 245);
+    font-size: 15px;
+    cursor:pointer
+}
+input {
+    cursor:grab;
+}
+#result{
+    margin-top:30px;
+    font-size: 20px;
+    text-shadow: rgba(240, 240, 97, 0.92) 1px 0 10px;
+}
